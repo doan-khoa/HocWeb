@@ -1,0 +1,12 @@
+.box {
+    padding: 10px;
+    border: 10px solid #333;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+/* .box {
+    box-sizing: unset;
+} */

@@ -1,0 +1,38 @@
+/* BREAK POINT */
+
+/* PC */
+@media only screen and (min-width: 1024px) {
+    .pc {
+        color: red;
+        display: block;
+    }
+}
+
+/* Tablet & Mobile */
+@media only screen and (max-width: 1023px) {
+
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .tablet {
+        color: red;
+        display: block;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 739px) {
+    .mobile {
+        color: red;
+        display: block;
+    }
+}
+
+/* 
+    PC: >= 1024px
+    Tablet & Mobile < 1024px
+    Tablet: >= 740px  &  < 1024px
+    Mobile: < 740px
+*/

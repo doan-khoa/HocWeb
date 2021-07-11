@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav__pc">
+            <a href="" class="nav__link">Home</a>
+            <a href="" class="nav__link">Content</a>
+            <a href="" class="nav__link">Help</a>
+            <a href="" class="nav__link">Join</a>
+        </div>
+
+        <label for="nav-mobile-input" class="nav__bars-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <input type="checkbox"  name="" class="nav__input" id="nav-mobile-input">
+
+        <label for="nav-mobile-input" class="nav__overlay"></label>
+
+        <nav class="nav__mobile"> 
+            <label for="nav-mobile-input" class="nav__mobile-close">
+                <i class="fas fa-times"></i>
+            </label>
+            
+            <ul class="nav__mobile-list">
+                <li>
+                    <a href="" class="nav__mobile-link">Home</a>
+                </li>
+                <li>
+                    <a href="" class="nav__mobile-link">Content</a>
+                </li>
+                <li>
+                    <a href="" class="nav__mobile-link">Help</a>
+                </li>
+                <li>
+                    <a href="" class="nav__mobile-link">Join</a>
+            </ul>              
+        </nav>
+    </div>
+
+    <a href="#my-dialog" class="dialog-btn">Click me!</a>
+
+    <div class="dialog overlay" id="my-dialog">
+        <a href="#" class="overlay-close"></a>
+
+        <div class="dialog-body">
+            <a class="dialog-close" href="#">&times;</a>
+            <h3>F8 là nơi học lập trình miễn phí</h3>
+            <p>Các khóa học được đầu tư kĩ lưỡng từ nội dung ho đến hình thức</p>
+        </div>
+    </div>
+</body>
+</html>

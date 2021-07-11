@@ -1,0 +1,17 @@
+h1:hover {
+    color: red;
+}
+
+
+h2:active {
+    color: rgb(255, 0, 0);
+}
+
+
+li:first-child {
+    color: green;
+}
+
+li:last-child {
+    color: blue;
+}

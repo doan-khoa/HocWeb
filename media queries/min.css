@@ -1,0 +1,37 @@
+/* BREAK POINT */
+
+/* PC */
+@media only screen and (min-width: 64em) {
+    .pc {
+        color: red;
+        display: block;
+    }
+}
+
+/* Tablet & Mobile */
+@media only screen and (max-width: 63.9375em) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 46.24em) and (max-width: 63.9375em) {
+    .tablet {
+        color: red;
+        display: block;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+    .mobile {
+        color: red;
+        display: block;
+    }
+}
+
+/* 
+    PC: >= 64em
+    Tablet & Mobile < 64em
+    Tablet: >= 46.25em  &  < 64em
+    Mobile: < 46.25em
+*/
